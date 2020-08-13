@@ -8,7 +8,7 @@ function TestTable() {
     const tableHead = ['ID', 'Alias', 'Name', 'Strength'];
     const tableData = employees;
     let Data = []
-    for (i = 0; i < employees.length; i++){
+    for (let i = 0; i < employees.length; i++){
       let temp = [employees[i].id, employees[i].hero, employees[i].name, employees[i].strength];
       Data.push(temp);
     }
