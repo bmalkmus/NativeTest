@@ -2,21 +2,22 @@
 import React from 'react';
 import {View} from 'react-native';
 import {Table, Row, Rows} from 'react-native-table-component';
+import employees from '../../employees.json';
 
 function TestTable() {
-    const tableHead = ['Head', 'Head2', 'Head3', 'Head4'];
-    const tableData = [
-        ['1', '2', '3', '4'],
-        ['a', 'b', 'c', 'd'],
-        ['1', '2', '3', '456\n789'],
-        ['a', 'b', 'c', 'd'],
-      ];
+    const tableHead = ['ID', 'Alias', 'Name', 'Strength'];
+    const tableData = employees;
+    let Data = []
+    for (i = 0; i < employees.length; i++){
+      let temp = [employees[i].id, employees[i].hero, employees[i].name, employees[i].strength];
+      Data.push(temp);
+    }
 
   return (
     <View>
       <Table>
         <Row data={tableHead} />
-        <Rows data={tableData}/>
+        <Rows data={Data}/>
       </Table>
     </View>
   );
