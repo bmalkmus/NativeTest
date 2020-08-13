@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "hero": "Spider-Man",
+        "name": "Peter Parker",
+        "image":"https://purepng.com/public/uploads/large/purepng.com-mcu-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-lee-1701528655332b3u2g.png",
+        "active": false,
+        "strength": "Radioactive Spider DNA"
+
+    },
+
+    {
+        "id":2,
+        "hero":"Captain America",
+        "name":"Steve Rogers",
+        "image":"https://vignette.wikia.nocookie.net/howstrongis/images/3/36/Captain_america_marvel_cinematic_universe.png/revision/latest/scale-to-width-down/514?cb=20181015200410",
+        "active": false,
+        "strength":"Super-Soldier Formula"
+
+    },
+
+    {
+        "id":3,
+        "hero":"Iron Man",
+        "name":"Tony Stark",
+        "image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/dd3g1tt-ab27d5a1-fb0b-4b36-9e90-53c134b6355e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkYmMxOTM1LTY1NDItNGVlMy04MjJmLTEzNWNmZjRiYTYyY1wvZGQzZzF0dC1hYjI3ZDVhMS1mYjBiLTRiMzYtOWU5MC01M2MxMzRiNjM1NWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KaknIHQIvi3bfkx2I81KXmpegJHVTMX1E14hfkqEkBk",
+        "active": false,
+        "strength":"Powered Armor Suit"
+
+    },
+
+    {
+        "id":4,
+        "hero":"The Hulk",
+        "name":"Bruce Banner",
+        "image":"http://www.pngmart.com/files/2/Hulk-PNG-Transparent-Image.png",
+        "active": false,
+        "strength":"Superhuman Strength, Durability, and Healing"
+
+    },
+
+    {
+        "id":5,
+        "hero":"Black Panther",
+        "name":"T'Challa",
+        "image":"https://ya-webdesign.com/transparent250_/captain-america-civil-war-black-panther-png-3.png",
+        "active": false,
+        "strength":"Vibranium Suit and Superhuman durability"
+
+    },
+
+    {
+        "id":6,
+        "hero":"Doctor Strange",
+        "name":"Stephen Strange, MD",
+        "image":"https://vignette.wikia.nocookie.net/vsdebating/images/5/55/Strange.png/revision/latest?cb=20170605151725",
+        "active": false,
+        "strength":"Sorcerer Supreme"
+
+    },
+
+    {
+        "id":7,
+        "hero":"Thor",
+        "name":"Thor Odinson",
+        "image":"https://ya-webdesign.com/transparent250_/avengers-movie-png-6.png",
+        "active": false,
+        "strength":"God of Thunder"
+
+    },
+
+    {
+        "id":8,
+        "hero":"Black Widow",
+        "name":"Natasha Romanova",
+        "image":"http://www.pngmart.com/files/2/Black-Widow-Transparent-PNG.png",
+        "active": false,
+        "strength":"Trained Assassin"
+
+    },
+
+    {
+        "id":9,
+        "hero":"Hawkeye",
+        "name":"Clint Barton",
+        "image":"http://clipart-library.com/images_k/hawkeye-transparent/hawkeye-transparent-10.png",
+        "active": false,
+        "strength":"Master Marksman"
+
+    },
+
+    {
+        "id":10,
+        "hero":"Antman",
+        "name":"Scott Lang",
+        "image":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/92/AntManSuit3.png/revision/latest?cb=20180813224710",
+        "active": false,
+        "strength":"Changes Size at Will"
+
+    }
+]
