@@ -26,16 +26,16 @@ function TestTable({employees}) {
     const onPress = (index) => {
       const alias = employees[index].hero;
       console.log('click');
-      Alert.alert(`${alias} , Agent ID ${index + 1} , has been activated on mission`);
+      Alert.alert(`${alias} , Agent ID ${index + 1}, has been activated on mission`);
     };
 
 
     const element = (data, index) => (
-      <TouchableOpacity onPress={onPress}>
-        <View style={styles.btn}>
+      <TouchableOpacity onPress={onPress} style={styles.btn}>
+        <View>
           <Text style={styles.btnText}>Activate</Text>
         </View>
-      </TouchableOpacity>
+     </TouchableOpacity>
     );
 
 
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   head: { height: 40, backgroundColor: '#808B97' },
   text: { margin: 6, fontSize:10 },
   row: { flexDirection: 'row', backgroundColor: '#FFF1C1', height: 50 },
-  btn: { width: 58, height: 18, backgroundColor: '#78B7BB',  borderRadius: 2 },
+  btn: { width: 58, height: 30, backgroundColor: '#098987',  borderRadius: 2, zIndex:1 },
   btnText: { textAlign: 'center', color: '#fff' },
 });
 
