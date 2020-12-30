@@ -16,7 +16,7 @@ import {
   Title,
 } from 'native-base';
 
-import {StyleSheet} from 'react-native';
+import {StyleSheet, FlatList} from 'react-native';
 
 function ListAvatar ({employees}) {
 
@@ -39,7 +39,7 @@ function ListAvatar ({employees}) {
                 </Right>
             </Header>
                 <Content>
-                    <List>
+                    <FlatList>
                         <ListItem>
                             <Text style={styles.text}>This is a test</Text>
                         </ListItem>
@@ -49,7 +49,8 @@ function ListAvatar ({employees}) {
                         <ListItem>
                             <Text style={styles.text}>This is a test</Text>
                         </ListItem>
-                    </List>
+
+                    </FlatList>
                 </Content>
             </Container>
     );
